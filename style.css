@@ -224,7 +224,8 @@ q {
 
 .home__social {
     display: flex;
-    flex-direction: column
+    flex-direction: column;
+    margin-bottom: 100px;
 }
 
 .home__social-icon {
@@ -239,12 +240,13 @@ q {
 .home__img {
     position: absolute;
     right: 0;
-    bottom: 0;
+    /* bottom: 0; */
+    margin-bottom: 50px;
     width: 295px;
 }
 
 .home__img img{
-    width: 390px;
+    width: 300px;
     border-radius: 10%;
     box-shadow: 0 6px 16px 0 rgba(0, 0, 0, .5);
 
